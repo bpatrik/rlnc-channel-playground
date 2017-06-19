@@ -1,0 +1,27 @@
+{
+  "name": "rlnc-channel-playground",
+  "version": "1.0.0",
+  "description": "It's a simple playground project to understand the ability of Network coding over a lossy channel",
+  "repository": "https://github.com/bpatrik/rlnc-channel-playground",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "install": "tsc",
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrik J. Braun",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "lodash": "^4.17.4",
+    "seedrandom": "^2.4.3",
+    "systemjs": "^0.20.14"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.2.1",
+    "@types/lodash": "^4.14.66",
+    "@types/seedrandom": "^2.4.27",
+    "typescript": "^2.3.4"
+  }
+}
